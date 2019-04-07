@@ -1,0 +1,39 @@
+{
+  "name": "ketap",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/runtime": "^7.1.2",
+    "mobx": "^4.5.0",
+    "mobx-react": "^5.3.3",
+    "mobx-state-tree": "^3.7.0",
+    "babel-preset-react-native": "^4.0.0",
+    "google-translate-api": "^2.3.0",
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-native-color-theme": "^0.0.1",
+    "react-native-elements": "^0.19.1",
+    "react-native-flip-toggle-button": "^1.0.5",
+    "react-native-htmlview": "^0.13.0",
+    "react-native-onesignal": "^3.2.6",
+    "react-native-simple-radio-button": "^2.7.2",
+    "react-native-spinkit": "^1.1.1",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.12.1",
+    "striptags": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.47.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
